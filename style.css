@@ -10,6 +10,7 @@ padding: 0;
 }
 #header a {
   font-size: 20px;
+  transition: 0.5s;
 }
 #header a:hover {
   font-size: 25px;
@@ -115,12 +116,14 @@ nav .fa-bars {
   height: 1000px;
 }
 .pick {
+  padding: 10px;
   margin-left: 4px;
   margin-right: 4px;
-  background-color: grey;
+  background: linear-gradient(to right, #11998e, #38ef7d);
 }
 .pick h3 {
   padding-left: 10px;
+  font-weight: 600;
 }
 .col-md-9 {
   margin-top: 20px;
