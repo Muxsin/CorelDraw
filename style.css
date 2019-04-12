@@ -70,8 +70,8 @@ nav .fa-bars {
   font-size: 26px;
   color: white;
   background: linear-gradient(to right, #3ca55c, #b5ac49);
+  box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
 }
-box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
 #download .btn:hover {
   color: green;
 }
