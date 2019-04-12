@@ -8,6 +8,9 @@ padding: 0;
   background-size: cover;
   background-position: center;
 }
+#header a {
+  font-size: 20px;
+}
 .navbar {
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   background: linear-gradient(to right, #3ca55c, #b5ac49);
@@ -57,7 +60,7 @@ nav .fa-bars {
 }
 .down-btn {
   padding: 7px;
-  border-radius: 10px;
+  border-radius: 30px;
   font-size: 20px;
   color: black;
   background: linear-gradient(to right, #33cc33, #5cd65c);
@@ -67,5 +70,44 @@ nav .fa-bars {
   font-size: 26px;
   color: white;
   background: linear-gradient(to right, #3ca55c, #b5ac49);
+}
+box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+#download .btn:hover {
+  color: green;
+}
+/*------------HELP----------------*/
+#help {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
   box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+.help {
+  padding: 20px;
+}
+.help h1{
+  color: green;
+  text-align: center;
+  font-weight: 600;
+}
+.help-tool {
+  padding: 20px;
+}
+.help-tool p {
+  padding-left: 40px;
+  text-align: justify;
+  font-size: 20px;
+}
+.help-tool img {
+  text-align: center;
+}
+.shape {
+  height: 300px;
+  margin-top: 30px;
+}
+.shape-tx {
+  margin-top: 30px;
+}
+.tools {
+  height: 1000px;
 }
