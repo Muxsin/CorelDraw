@@ -11,6 +11,9 @@ padding: 0;
 #header a {
   font-size: 20px;
 }
+#header a:hover {
+  font-size: 25px;
+}
 .navbar {
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   background: linear-gradient(to right, #3ca55c, #b5ac49);
@@ -110,4 +113,18 @@ nav .fa-bars {
 }
 .tools {
   height: 1000px;
+}
+.pick {
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: grey;
+}
+.pick h3 {
+  padding-left: 10px;
+}
+.col-md-9 {
+  margin-top: 20px;
+}
+.col-md-3 {
+  margin-top: 20px;
 }
